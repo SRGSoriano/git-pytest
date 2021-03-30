@@ -15,3 +15,6 @@ def sqrt(n: float, threshold: 1e-3) -> float:
         rel_error = abs(L - W) / L
 
     return L
+
+def adios(Nombre):
+    return('Adios', Nombre)
